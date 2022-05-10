@@ -1,0 +1,38 @@
+﻿
+
+
+<div class="block">
+    <div class="container">
+        <div class="row row-eq-height">
+            <div class="col-sm-6">
+                <div class="form-card">
+                    <h4> مشتریان جدید </h4>
+                    <p>
+                        با ایجاد یک حساب کاربری در فروشگاه ما ، شما می توانید از طریق پرداخت خارج شوید
+                        سریعتر پردازش کنید ، چندین آدرس حمل و نقل را ذخیره کنید ، سفارشات خود را مشاهده و پیگیری کنید
+                        حساب شما و موارد دیگر.
+                    </p>
+                    <div> <a href="~/SingUp" class="btn btn-lg"> <i class="icon icon-user"> </i> <span> ایجاد یک حساب کاربری </span> </a> </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="form-card">
+                    <h4> مشتریان ثبت شده </h4>
+                    <p> اگر با ما حساب کاربری دارید ، لطفاً وارد شوید. </p>
+                    <form class="account-create" action="#">
+                        <label> پست الکترونیکی <span class="required"> * </span> </label>
+                        <input type="email" class="form-control input-lg" name="email">
+                        <label> گذرواژه <span class="required"> * </span> </label>
+                        <input type="password" class="form-control input-lg"name="password">
+                        <div>
+                            <button class="btn btn-lg" asp-action="LogIn"> ورود </button>
+
+                            <div class="back"> <a href="#"> رمز ورود خود را فراموش کرده اید؟ </a></div>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

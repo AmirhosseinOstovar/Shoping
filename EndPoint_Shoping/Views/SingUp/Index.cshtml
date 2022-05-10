@@ -1,0 +1,37 @@
+﻿<div class="block">
+    <div class="container">
+        <div class="form-card">
+            <h3>اطلاعات شخصی</h3>
+            <form style="direction: rtl" class="account-create" action="Creat">
+
+                <label style="line-height:5em;">نام و نام خانوادگی<span class="required"></span></label>
+                <input type="text" class="form-control input-lg" id="name" required name="name">
+                <label style="line-height:5em;">ایمیل <span class="required"></span></label>
+                <input type="email" class="form-control input-lg" id="email" required name="email">
+                <label style="line-height:5em;">شماره موبایل <span class="required"></span></label>
+                <input type="tel" class="form-control input-lg" id="phone" required name="phone">
+                <label style="line-height:5em;">ادرس <span class="required"></span></label>
+                <input type="text" class="form-control input-lg" id="address" name="address">
+                <label style="line-height:5em;">رمز عبور <span class="required"></span></label>
+                <input type="password" class="form-control input-lg" id="password" required name="password">
+                <div class="container-login100-form-btn">
+                    <button class="login100-form-btn alert-dark " data-toggle="modal" href="#ignismyModal" asp-action="Creat">
+                        ایجاد کردن
+                    </button>
+                    
+                    <a class=" login100-form-btn alert"  href="/singin"> ورود</a>
+
+                </div>
+
+
+
+
+                @*
+                    <div>
+                        <button class="btn btn-lg">ایجاد کردن</button>
+                        <div class="back"> <a href="#">بازگشت به فروشگاه<i class="icon icon-undo"></i></a></div>
+                *@
+            </form>
+        </div>
+    </div>
+</div>
